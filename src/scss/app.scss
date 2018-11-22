@@ -25,9 +25,37 @@ h6 {
 	font-size: 1.5rem;
 }
 
+.jumbotron {
+	height: auto;
+  	width: 100vw;
+  	margin-top: 90px;
+  	background-image: url("../2.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+
 .container {
 	background: white;
 	text-align: center;
+  	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 30%;
+	padding-top: 20px;
+}
+
+.container2 {
+	width: 100vw;
+	height: 30vh;
+	background: rgba(230,230,240,0.5);
+	text-align: center;
+	padding-top: 20px;
+	border-top: solid 0.5px rgba(150,150,150,0.5); 
+	border-bottom: solid 0.5px rgba(150,150,150,0.5); 
+	padding-bottom: 20px;
 }
 
 ul.navbar {
@@ -53,4 +81,19 @@ ul.navbar li{
 .carousel-caption {
 	margin-bottom: 200px;
 }
- 
+
+.img-responsive {
+	width: 100vw;
+	height: auto;
+}
+
+.btn btn-light {
+	color: gray;
+}
+
+.box {
+	margin-top: 2px;
+	width: 100vw;
+	height: 10vh;
+	background-color: black;
+}
