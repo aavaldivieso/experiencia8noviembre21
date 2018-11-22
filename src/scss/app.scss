@@ -1,12 +1,56 @@
 body {
-	background: black;
-	font-size: 30px;
+	background: white;
+}
+
+p {
+	font-size: 1rem;
+	margin-top: 5px;
+}
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 3.5rem;
+}
+h3 {
+	font-size: 3rem;
+}
+h4 {
+	font-size: 2.5rem;
+}
+h5 {
+	font-size: 2rem;
+}
+h6 {
+	font-size: 1.5rem;
 }
 
 .container {
-	background: black;
-
-	p {
-		font-size: 40px;
-	}
+	background: white;
+	text-align: center;
 }
+
+ul.navbar {
+	list-style-type: none;
+	background-color: black;
+	margin-top: 10px;
+}
+ul.navbar li{
+	color: gray;
+	float: left;
+	padding: 16px;
+	font-size: 1.5rem;
+	margin-top: 4px;
+}
+
+
+.jumbotron {
+  height: auto;
+  width: 100vw;
+  margin-top: 90px;
+}
+
+.carousel-caption {
+	margin-bottom: 200px;
+}
+ 
