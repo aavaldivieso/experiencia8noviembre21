@@ -1,0 +1,98 @@
+body {
+  background: white;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.container {
+  background: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  padding-top: 20px;
+}
+
+.container2 {
+  width: 100vw;
+  height: 30vh;
+  background: rgba(230, 230, 240, 0.5);
+  text-align: center;
+  padding-top: 20px;
+  border-top: solid 0.5px rgba(150, 150, 150, 0.5);
+  border-bottom: solid 0.5px rgba(150, 150, 150, 0.5);
+  padding-bottom: 20px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  background-color: black;
+  margin-top: 10px;
+}
+
+ul.navbar li {
+  color: gray;
+  float: left;
+  padding: 16px;
+  font-size: 1.5rem;
+  margin-top: 4px;
+}
+
+.jumbotron {
+  height: auto;
+  width: 100vw;
+  margin-top: 90px;
+}
+
+.carousel-caption {
+  margin-bottom: 200px;
+}
+
+.img-responsive {
+  width: 100vw;
+  height: auto;
+}
+
+.btn btn-light {
+  color: gray;
+}
+
+.box {
+  text-align: center;
+  width: 100vw;
+  height: 7vh;
+	padding: 6px;
+  background-color: black;
+}
+
